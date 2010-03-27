@@ -63,7 +63,7 @@
 
 !SLIDE commandline incremental
 
-	$ echo 'third commit - ours' | git commit-tree 2a654888 -p ac113b8
+	$ echo 'third commit - ours' | git commit-tree 2a654 -p ac113b8
 	f425053ff8d53c5b64410cf9bab994d45ac7c711
 	$ git log f42505
 	commit f425053ff8d53c5b64410cf9bab994d45ac7c711
@@ -104,7 +104,7 @@
 
 	$ git read-tree $(cat .git/master)
 	$ git checkout-index -a -f
-	$ tail README.txt
+	$ cat README.txt
 	My README File
 	 by Scott Chacon
 

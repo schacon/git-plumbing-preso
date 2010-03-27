@@ -2,7 +2,7 @@ var timerSetUp = false;
 var timerRunning = false;
 var intervalRunning = false;
 var seconds = 0;
-var totalMinutes = 25;
+var totalMinutes = 35;
 
 function setUpTimer()
 {
@@ -54,7 +54,7 @@ function timerStatus(seconds) {
 }
 
 function setProgressIcon(progress) {
-  if(progress > 10) {    
+  if(progress > 10) {
     $('#progressIcon').attr('src', '/image/timer/flag_blue.png')
   } else if (progress > 0) {
     $('#progressIcon').attr('src', '/image/timer/flag_green.png')
