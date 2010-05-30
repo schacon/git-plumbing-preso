@@ -9,7 +9,7 @@
 * git-scm.com
 * progit.org
 * \#git / \#github on IRC
-* git-plumbing-preso.heroku.com
 * github.com/schacon/git-plumbing-preso
+* github.com/schacon/gitcrazy
 * schacon@gmail.com
 
